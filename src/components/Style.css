@@ -1,0 +1,32 @@
+.movie-container {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin: auto;
+    display: flex;
+    min-height: 694px;
+    flex-direction: column;
+    
+}
+.movie-items {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.list-m {
+    text-align: center;
+    margin: 100px 0 50px;
+    color:rgb(252, 67, 67);
+    
+}
+.big-show:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .20s;
+}
+.add-items {
+    margin: 30px 500px;
+}
